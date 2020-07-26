@@ -42,7 +42,7 @@ describe('ResetPasswordService', () => {
   });
 
   it('should not be able to reset the password with non-existing token', async () => {
-    expect(
+    await expect(
       resetPassword.execute({
         token: '12121',
         password: '123456'
@@ -52,7 +52,7 @@ describe('ResetPasswordService', () => {
   it('should not be able to reset the password with non-existing user', async () => {
     const {token} = await fakeUserTokensRepository.generate('non-existing-user');
     
-    expect(
+    await expect(
       resetPassword.execute({
         token: '12121',
         password: '123456'
