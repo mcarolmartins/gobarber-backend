@@ -1,5 +1,4 @@
-# Recuperação de senha
-- [X]
+- [X] # Recuperação de senha
 **RF -> requisitos funcionais: quais funcionalidades teremos dentro, descritas**
 - O usuário deve poder recuperar sua senha informando seu e-mail;
 - O usuário deve  receber um e-mail com instruções de recuperação de senha;
@@ -22,8 +21,8 @@
 - Registrar providers no container
 - Testar
 
- # Atualização do perfil
- - [ ]
+ - [ ] # Atualização do perfil
+
 **RF**
 - O usuário deve poder atualizar seu nome, e-mail e senha;
 
@@ -33,8 +32,8 @@
 - Para atualizar sua senha, o usuário precisa confirmar a nova senha;
 
 
-# Painel do prestador
-- [ ]
+- [ ] # Painel do prestador
+
 **RF**
 - O usuário deve poder ver todos os seus agendamentos por dia;
 - O prestador deve receber uma notificação sempre que houver um novo agendamento;
@@ -50,8 +49,8 @@
 
 
 
-# Agendamento de serviços
-- [ ]
+- [ ] # Agendamento de serviços
+
 **RF**
 - O usuário deve poder listar todos prestadores de serviço cadastrados;
 - O usuário deve poder listar os dias de um mês com pelo menos um horário disponível de um prestador;
