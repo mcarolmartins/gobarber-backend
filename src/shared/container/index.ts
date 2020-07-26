@@ -12,3 +12,5 @@ import UsersRepository from '@modules/users/infra/typeorm/repositories/UsersRepo
 container.registerSingleton<IAppointmentsRepository>('AppointmentsRepository', AppointmentsRepository);
 
 container.registerSingleton<IUsersRepository>('UsersRepository', UsersRepository);
+
+// container.registerSingleton<>('', );
