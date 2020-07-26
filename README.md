@@ -21,7 +21,6 @@
 - Registrar providers no container
 - Testar
 
-
 # Atualização do profile -> OK
 **RF**
 - O usuário deve poder atualizar seu nome, e-mail e senha;
@@ -30,7 +29,6 @@
 - O usuário não pode alterar seu e-mail para um e-mail já utilizado por outro usuário;
 - Para atualizar sua senha, o usuário deve informar a senha antiga;
 - Para atualizar sua senha, o usuário precisa confirmar a nova senha;
-
 
 # Painel do prestador
 **RF**
@@ -45,8 +43,6 @@
 
 **RN**
 - A notificação deve ter um status de lida ou não-lida para que o prestador possa controlar;
-
-
 
 # Agendamento de serviços
 **RF**
