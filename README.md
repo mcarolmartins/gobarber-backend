@@ -13,6 +13,14 @@
 - O link enviado por e-mail para resetar a senha, deve expirar em 2 horas;
 - O usuário precisa confirmar a nova senha ao efetuar;
 
+**Tornar funcional**
+- Rotas e controladores
+- Repositório de tokens (typeORM) | só tem o fake
+- Criar migration de tokens
+- Provider de envio de e-mail (DEV)
+- Registrar providers no container
+- Testar
+
 # Atualização do perfil
 **RF**
 - O usuário deve poder atualizar seu nome, e-mail e senha;
